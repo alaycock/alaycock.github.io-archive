@@ -1,13 +1,33 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Adam Laycock
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+  <div id="miniabout">
+    <p><big>{{site.name}}</big></p>
+    <p>I am a graduate from the computer science program at the University of Calgary. Currently a software and web developer.</p>
+  </div>
+
+  {% for post in site.posts %}
+    <a href="{{ post.url }}">
+      <div class="posts">
+        <div class="header">
+          <span class="date">{{ post.date | date_to_string }}</span>
+          <h2>
+            {% if post.categories contains 'projects' %}
+              <span class="name">Project:
+            {% endif %}
+            {{ post.title }}
+            {% if post.categories contains 'projects' %}
+              </span>
+            {% endif %}
+          </h2>
+        </div>
+        <div class="body">
+          {{ post.excerpt }}
+        </div>
+      </div>
+    </a>
+  {% endfor %}
 </div>

@@ -1,0 +1,275 @@
+.githubmd {
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding: 30px; }
+ 
+.githubmd > *:first-child {
+  margin-top: 0 !important; }
+.githubmd > *:last-child {
+  margin-bottom: 0 !important; }
+ 
+.githubmd a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+ 
+.githubmd h1, .githubmd h2, .githubmd h3, .githubmd h4, .githubmd h5, .githubmd h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative;
+}
+ 
+.githubmd h1:hover a.anchor, .githubmd h2:hover a.anchor, .githubmd h3:hover a.anchor, .githubmd h4:hover a.anchor, .githubmd h5:hover a.anchor, .githubmd h6:hover a.anchor {
+  background: url("../../images/modules/styleguide/para.png") no-repeat 10px center;
+  text-decoration: none; }
+ 
+.githubmd h1 tt, .githubmd h1 code {
+  font-size: inherit; }
+ 
+.githubmd h2 tt, .githubmd h2 code {
+  font-size: inherit; }
+ 
+.githubmd h3 tt, .githubmd h3 code {
+  font-size: inherit; }
+ 
+.githubmd h4 tt, .githubmd h4 code {
+  font-size: inherit; }
+ 
+.githubmd h5 tt, .githubmd h5 code {
+  font-size: inherit; }
+ 
+.githubmd h6 tt, .githubmd h6 code {
+  font-size: inherit; }
+ 
+.githubmd h1 {
+  font-size: 28px;
+  color: black; }
+ 
+.githubmd h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+ 
+.githubmd h3 {
+  font-size: 18px; }
+ 
+.githubmd h4 {
+  font-size: 16px; }
+ 
+.githubmd h5 {
+  font-size: 14px; }
+ 
+.githubmd h6 {
+  color: #777777;
+  font-size: 14px; }
+ 
+.githubmd p, .githubmd blockquote, .githubmd ul, .githubmd ol, .githubmd dl, .githubmd li, .githubmd table, .githubmd pre {
+  margin: 15px 0; }
+ 
+.githubmd hr {
+  background: transparent url("../../images/modules/pulls/dirty-shade.png") repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0; }
+ 
+.githubmd body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+.githubmd body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+.githubmd body > h3:first-child, .githubmd body > h4:first-child, .githubmd body > h5:first-child, .githubmd body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+ 
+.githubmd a:first-child h1, .githubmd a:first-child h2, .githubmd a:first-child h3, .githubmd a:first-child h4, .githubmd a:first-child h5, .githubmd a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+ 
+.githubmd h1 p, .githubmd h2 p, .githubmd h3 p, .githubmd h4 p, .githubmd h5 p, .githubmd h6 p {
+  margin-top: 0; }
+ 
+.githubmd li p.first {
+  display: inline-block; }
+ 
+.githubmd ul, .githubmd ol {
+  padding-left: 30px; }
+ 
+.githubmd ul :first-child, .githubmd ol :first-child {
+  margin-top: 0; }
+ 
+.githubmd ul :last-child, .githubmd ol :last-child {
+  margin-bottom: 0; }
+ 
+.githubmd dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+ 
+.githubmd blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+ 
+.githubmd table {
+  padding: 0; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, .githubmd table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, .githubmd table tr td :last-child {
+      margin-bottom: 0; }
+ 
+.githubmd img {
+  max-width: 100%; }
+ 
+.githubmd span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+.githubmd span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+.githubmd span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+.githubmd span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+.githubmd span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+ 
+.githubmd code, .githubmd tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+ 
+.githubmd pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+ 
+.githubmd .highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+ 
+.githubmd pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+.githubmd pre code, .githubmd pre tt {
+  background-color: transparent;
+  border: none;
+}
