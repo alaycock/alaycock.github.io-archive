@@ -10,17 +10,15 @@ title: Blog
 
   {% for post in site.posts %}
     {% if post.categories contains 'blog' %}
-      <a href="{{ post.url }}">
-        <div class="posts">
-          <div class="header">
-            <span class="date">{{ post.date | date_to_string }}</span>
-            <h2>{{ post.title }}</h2>
-          </div>
-          <div class="body">
-            {{ post.excerpt }}
-          </div>
+      <div class="posts" onclick="location.href='{{ post.url }}'" style="cursor: pointer;">
+        <div class="header">
+          <span class="date">{{ post.date | date_to_string }}</span>
+          <h2>{{ post.title }}</h2>
         </div>
-      </a>
+        <div class="body">
+          {{ post.excerpt }}
+        </div>
+      </div>
     {% endif %}
   {% endfor %}
 </div>

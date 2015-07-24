@@ -10,7 +10,7 @@ title: Adam Laycock
   </div>
   <div id="grid">
     {% for post in site.posts %}
-      <div class="posts" onclick="location.href='{{ post.url }}'" style="cursor: hand;">
+      <div class="posts" onclick="location.href='{{ post.url }}'" style="cursor: pointer;">
         <div class="header">
           <span class="date">{{ post.date | date_to_string }}</span>
           <h2>
