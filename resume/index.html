@@ -9,6 +9,8 @@ title: Resume
   </div>
 
   <div class="post githubmd">
-    {% markdown resume.md %}
+    {% capture resumeInclude %}{% include resume.md %}{% endcapture %}
+    {{ resumeInclude | markdownify }}
+
   </div>
 </div>
