@@ -1,4 +1,3 @@
-
 Objective
 ---------
 
@@ -70,8 +69,7 @@ Feb 2014 - Jan 2015
     estimates, solution designs and exit documentation.
 -   Traveled internationally to work with customers on-site in Europe.
 
-Jul 2013 - Feb 2014  
-May 2012 - Aug 2012  
+Jul 2013 - Feb 2014, May 2012 - Aug 2012  
 **Hitachi ID Systems**, Calgary, Alberta  
 *Technical Support Analyst*
 

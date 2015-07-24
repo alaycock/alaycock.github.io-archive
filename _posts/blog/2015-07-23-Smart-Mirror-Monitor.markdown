@@ -5,9 +5,9 @@ date:   2015-07-23 14:00:00
 categories: blog
 ---
 After I bought the Raspberry Pi, and the Hover, the next step was to get an
-appropriate monitor. The monitor I went with is the 
-[AOC E2476VWM6](http://www.memoryexpress.com/Products/MX54712), which isn't a 
-great monitor for daily usage since the colour isn't great, and only has HDMI 
+appropriate monitor. The monitor I went with is the
+[AOC E2476VWM6](http://www.memoryexpress.com/Products/MX54712), which isn't a
+great monitor for daily usage since the colour isn't great, and only has HDMI
 and VGA ports.
 
 The big selling point of this monitor was it's thickness and weight. I plan on
@@ -30,4 +30,4 @@ that I probably wouldn't find another monitor at this thinness and price range.
 Removing the monitor case was a breeze, only had to remove two screws and pry
 the bezel off which is another reason why this monitor is a great choice.
 
-[See the next section, buying a two-way mirror.]()
+[See the next section, buying a two-way mirror.](/blog/2015/07/24/Smart-Mirror-Mirror.html)

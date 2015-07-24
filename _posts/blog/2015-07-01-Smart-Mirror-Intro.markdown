@@ -7,11 +7,13 @@ categories: blog
 I've been working on making my own take on the
 [Magic Mirror](http://michaelteeuw.nl/tagged/magicmirror), which was originally
 done by Michael Teeuw. It's been done many times by other people, but mine is
-going to be a little bit different and a little bit more complicated. Check out
-Michael's site for a more complete understanding, but the basic idea is that
-it's a 2-way mirror with a monitor behind it, so you can have visuals show up
-while you're looking in the mirror. Use cases would include, displaying the
-weather, the time, current events, your calendar, your email, etc.
+going to be a little bit different and a little bit more complicated.
+
+For a more complete understanding take a look at Michael's site, but the basic
+idea is that it's a 2-way mirror with a monitor behind it, so you can have
+visuals show up while you're looking in the mirror. Use cases would include,
+displaying the weather, the time, current events, your calendar, your email,
+etc.
 
 What makes my mirror more interesting is this device.
 
@@ -29,7 +31,7 @@ I had to buy the following for this project:
  * Monitor
  * 2-way Mirror
  * Frame
- 
+
  ![](/img/20150724/hardware.jpg)
 
 ## The Steps ##
@@ -41,9 +43,9 @@ I had to buy the following for this project:
  3. Build the frame
  4. Assembly
  5. Mounting
- 
+
 I purchased the Raspberry Pi 2, since it's currently the newest version, as well
 as the Hover gesture control, those were pretty easy purchases since there aren't
 too many options for those.
 
-[See the next section, picking and purchasing the monitor.]()
+[See the next section, picking and purchasing the monitor.](/blog/2015/07/23/Smart-Mirror-Monitor.html)

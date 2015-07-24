@@ -5,6 +5,9 @@ date:   2015-05-11 12:00:00
 categories: projects
 githuburl: https://github.com/alaycock/SmartMirror
 ---
+
+[You can read my blog posts about building the Smart Mirror here.](http://localhost:4000/blog/2015/07/01/Smart-Mirror-Intro.html)
+
 This is the back-end for my smart mirror. It displays the current time, weather,
 and some news stories. It also has integration for gesture controls, so you can
 wave you hand near the mirror and have it do stuff.

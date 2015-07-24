@@ -4,12 +4,20 @@
   padding-top: 10px;
   padding-bottom: 10px;
   padding: 30px; }
- 
+
 .githubmd > *:first-child {
   margin-top: 0 !important; }
 .githubmd > *:last-child {
   margin-bottom: 0 !important; }
- 
+
+ .githubmd a {
+   color: #66B5F3;
+ }
+
+ .githubmd a:visited {
+   color: #66B5F3;
+ }
+
 .githubmd a.anchor {
   display: block;
   padding-left: 30px;
@@ -19,7 +27,7 @@
   top: 0;
   left: 0;
   bottom: 0; }
- 
+
 .githubmd h1, .githubmd h2, .githubmd h3, .githubmd h4, .githubmd h5, .githubmd h6 {
   margin: 20px 0 10px;
   padding: 0;
@@ -28,61 +36,61 @@
   cursor: text;
   position: relative;
 }
- 
+
 .githubmd h1:hover a.anchor, .githubmd h2:hover a.anchor, .githubmd h3:hover a.anchor, .githubmd h4:hover a.anchor, .githubmd h5:hover a.anchor, .githubmd h6:hover a.anchor {
   background: url("../../images/modules/styleguide/para.png") no-repeat 10px center;
   text-decoration: none; }
- 
+
 .githubmd h1 tt, .githubmd h1 code {
   font-size: inherit; }
- 
+
 .githubmd h2 tt, .githubmd h2 code {
   font-size: inherit; }
- 
+
 .githubmd h3 tt, .githubmd h3 code {
   font-size: inherit; }
- 
+
 .githubmd h4 tt, .githubmd h4 code {
   font-size: inherit; }
- 
+
 .githubmd h5 tt, .githubmd h5 code {
   font-size: inherit; }
- 
+
 .githubmd h6 tt, .githubmd h6 code {
   font-size: inherit; }
- 
+
 .githubmd h1 {
   font-size: 28px;
   color: black; }
- 
+
 .githubmd h2 {
   font-size: 24px;
   border-bottom: 1px solid #cccccc;
   color: black; }
- 
+
 .githubmd h3 {
   font-size: 18px; }
- 
+
 .githubmd h4 {
   font-size: 16px; }
- 
+
 .githubmd h5 {
   font-size: 14px; }
- 
+
 .githubmd h6 {
   color: #777777;
   font-size: 14px; }
- 
+
 .githubmd p, .githubmd blockquote, .githubmd ul, .githubmd ol, .githubmd dl, .githubmd li, .githubmd table, .githubmd pre {
   margin: 15px 0; }
- 
+
 .githubmd hr {
   background: transparent url("../../images/modules/pulls/dirty-shade.png") repeat-x 0 0;
   border: 0 none;
   color: #cccccc;
   height: 4px;
   padding: 0; }
- 
+
 .githubmd body > h2:first-child {
   margin-top: 0;
   padding-top: 0; }
@@ -95,26 +103,26 @@
 .githubmd body > h3:first-child, .githubmd body > h4:first-child, .githubmd body > h5:first-child, .githubmd body > h6:first-child {
   margin-top: 0;
   padding-top: 0; }
- 
+
 .githubmd a:first-child h1, .githubmd a:first-child h2, .githubmd a:first-child h3, .githubmd a:first-child h4, .githubmd a:first-child h5, .githubmd a:first-child h6 {
   margin-top: 0;
   padding-top: 0; }
- 
+
 .githubmd h1 p, .githubmd h2 p, .githubmd h3 p, .githubmd h4 p, .githubmd h5 p, .githubmd h6 p {
   margin-top: 0; }
- 
+
 .githubmd li p.first {
   display: inline-block; }
- 
+
 .githubmd ul, .githubmd ol {
   padding-left: 30px; }
- 
+
 .githubmd ul :first-child, .githubmd ol :first-child {
   margin-top: 0; }
- 
+
 .githubmd ul :last-child, .githubmd ol :last-child {
   margin-bottom: 0; }
- 
+
 .githubmd dl {
   padding: 0; }
   dl dt {
@@ -136,7 +144,7 @@
       margin-top: 0; }
     dl dd > :last-child {
       margin-bottom: 0; }
- 
+
 .githubmd blockquote {
   border-left: 4px solid #dddddd;
   padding: 0 15px;
@@ -145,7 +153,7 @@
     margin-top: 0; }
   blockquote > :last-child {
     margin-bottom: 0; }
- 
+
 .githubmd table {
   padding: 0; }
   table tr {
@@ -170,10 +178,10 @@
       margin-top: 0; }
     table tr th :last-child, .githubmd table tr td :last-child {
       margin-bottom: 0; }
- 
+
 .githubmd img {
   max-width: 100%; }
- 
+
 .githubmd span.frame {
   display: block;
   overflow: hidden; }
@@ -234,7 +242,7 @@
     overflow: hidden;
     margin: 13px auto 0;
     text-align: right; }
- 
+
 .githubmd code, .githubmd tt {
   margin: 0 2px;
   padding: 0 5px;
@@ -242,14 +250,14 @@
   border: 1px solid #eaeaea;
   background-color: #f8f8f8;
   border-radius: 3px; }
- 
+
 .githubmd pre code {
   margin: 0;
   padding: 0;
   white-space: pre;
   border: none;
   background: transparent; }
- 
+
 .githubmd .highlight pre {
   background-color: #f8f8f8;
   border: 1px solid #cccccc;
@@ -258,7 +266,7 @@
   overflow: auto;
   padding: 6px 10px;
   border-radius: 3px; }
- 
+
 .githubmd pre {
   background-color: #f8f8f8;
   border: 1px solid #cccccc;
