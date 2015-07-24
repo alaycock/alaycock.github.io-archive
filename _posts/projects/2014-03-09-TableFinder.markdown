@@ -3,6 +3,7 @@ layout: project
 title:  "TableFinder"
 date:   2014-03-09 14:00:09
 categories: projects
+githuburl: https://github.com/alaycock/TableFinder
 ---
 A simple table selector for the website tablefinder.info. The goal was to allow a small group of users select seats at a table for an event.
 

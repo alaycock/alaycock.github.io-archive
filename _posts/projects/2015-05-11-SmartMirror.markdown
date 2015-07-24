@@ -3,6 +3,7 @@ layout: project
 title:  "SmartMirror"
 date:   2015-05-11 12:00:00
 categories: projects
+githuburl: https://github.com/alaycock/SmartMirror
 ---
 This is the back-end for my smart mirror. It displays the current time, weather,
 and some news stories. It also has integration for gesture controls, so you can

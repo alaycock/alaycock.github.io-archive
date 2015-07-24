@@ -3,6 +3,7 @@ layout: project
 title:  "MeetupCal-Bot"
 date:   2013-01-10 14:00:09
 categories: projects
+githuburl: https://github.com/alaycock/MeetCal-bot
 ---
 This bot is for retrieving posts from Reddit, parsing them, and then generating a calendar that automatically gets uploaded to the subreddit.
 
@@ -46,5 +47,5 @@ ruby bot.rb
 
 
 That's it! As long as there are no errors, you should be good to go. This is definitely equivalent to pre-alpha software,
-so you may get errors along the way. You should probably have an understanding of ruby before you try to use this. The 
+so you may get errors along the way. You should probably have an understanding of ruby before you try to use this. The
 code is super messy but it gets the job done.
