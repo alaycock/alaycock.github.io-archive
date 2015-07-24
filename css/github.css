@@ -4,6 +4,11 @@
   padding-top: 10px;
   padding-bottom: 10px; }
 
+.githubmd .date {
+  margin: 0px;
+  padding: 0px;
+}
+
 .githubmd > *:first-child {
   margin-top: 0 !important; }
 .githubmd > *:last-child {
@@ -28,7 +33,7 @@
   bottom: 0; }
 
 .githubmd h1, .githubmd h2, .githubmd h3, .githubmd h4, .githubmd h5, .githubmd h6 {
-  margin: 20px 0 10px;
+  margin: 25px 0 10px;
   padding: 0;
   font-weight: bold;
   -webkit-font-smoothing: antialiased;

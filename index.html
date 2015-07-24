@@ -24,7 +24,9 @@ title: Adam Laycock
           </h2>
         </div>
         <div class="body">
-          {{ post.excerpt }}
+          <p>
+            {{ post.excerpt | strip_html }}
+          </p>
         </div>
       </div>
     {% endfor %}

@@ -16,7 +16,9 @@ title: Blog
           <h2>{{ post.title }}</h2>
         </div>
         <div class="body">
-          {{ post.excerpt }}
+          <p>
+            {{ post.excerpt | strip_html }}
+          </p>
         </div>
       </div>
     {% endif %}
