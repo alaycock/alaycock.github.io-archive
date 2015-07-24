@@ -43,13 +43,19 @@ a:visited { color: #303030; }
 
 .posts {
   list-style-type: none;
-  width:436px;
+  max-width:436px;
   float: left;
   margin: 5px;
   padding: 16px;
   background-color: #fff;
   font-weight: 400;
   border: 1px solid #ddd;
+}
+
+@media screen and (max-width: 990px) {
+  .posts {
+    max-width: 960px;
+  }
 }
 
 .posts:hover {
@@ -76,6 +82,7 @@ a:visited { color: #303030; }
 /* Navigation
 /*
 /*****************************************************************************/
+
 #navigation {
   padding-left: 0.3em;
   background-color: #fff;
@@ -87,32 +94,42 @@ a:visited { color: #303030; }
   padding-bottom: 1em;
 }
 
-#navigation ul {
-  list-style-type:none;
-  display: inline-block;
-}
-
-#navigation ul li {
-  display: inline;
-  margin-left: 181px;
-}
-
-#navigation ul li:first-child {
-  margin-left: 0px;
-}
-
 #navigation ul li:first-child a {
   color: #66B5F3;
   font-weight: 600;
 }
 
-#navigation .projects {
-  text-indent: 1em;
+#navigation ul {
+  list-style-type:none;
+  display: inline-block;
 }
 
-#navigation .nav-content {
-  width: 960px;
-  margin: 0 auto;
+@media screen and (max-width: 990px) {
+  #navigation ul li {
+    border-top: 1px solid #ddd;
+    padding: .5em .5em;
+  }
+
+  #navigation ul li:first-child {
+    border-top: none;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  #navigation ul li {
+    display: inline;
+    margin-left: 181px;
+    border-bottom: none;
+  }
+
+  #navigation ul li:first-child {
+    margin-left: 0px;
+  }
+
+  #navigation .nav-collapse {
+    max-width: 960px;
+    margin: 0 auto;
+  }
 }
 
 /*****************************************************************************/
@@ -123,10 +140,12 @@ a:visited { color: #303030; }
 
 .content {
   font-size: 115%;
-  width: 960px;
+  max-width: 960px;
   line-height: 1.2em;
   margin: 0 auto;
   background-color: #fdfdfd;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .accent {

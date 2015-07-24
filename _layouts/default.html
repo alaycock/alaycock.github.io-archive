@@ -5,7 +5,11 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <!-- Responsive Nav -->
+        <link rel="stylesheet" href="/css/responsive-nav.css">
+        <script src="/js/responsive-nav.min.js"></script>
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
@@ -13,7 +17,6 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/github.css">
-
     </head>
     <body>
         <div class="site">
@@ -22,5 +25,8 @@
             {{ content }}
           </div>
         </div>
+        <script>
+          var nav = responsiveNav(".nav-collapse");
+        </script>
     </body>
 </html>
