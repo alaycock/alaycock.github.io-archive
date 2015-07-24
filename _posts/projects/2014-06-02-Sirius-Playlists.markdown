@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Sirius Playlists"
-date:   2015-06-02 12:00:00
+date:   2014-06-02 12:00:00
 categories: projects
 githuburl: https://github.com/alaycock/sirius-playlists
 ---

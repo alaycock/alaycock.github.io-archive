@@ -43,7 +43,8 @@ a:visited { color: #303030; }
 
 .posts {
   list-style-type: none;
-  max-width:436px;
+  max-width: 436px;
+  height: 140px;
   float: left;
   margin: 5px;
   padding: 16px;

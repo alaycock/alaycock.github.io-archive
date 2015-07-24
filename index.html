@@ -10,23 +10,21 @@ title: Adam Laycock
   </div>
   <div id="grid">
     {% for post in site.posts %}
-      <div class="grid-item" onclick="location.href='{{ post.url }}'" style="cursor: hand;">
-        <div class="posts">
-          <div class="header">
-            <span class="date">{{ post.date | date_to_string }}</span>
-            <h2>
-              {% if post.categories contains 'projects' %}
-                <span class="name">Project:
-              {% endif %}
-              {{ post.title }}
-              {% if post.categories contains 'projects' %}
-                </span>
-              {% endif %}
-            </h2>
-          </div>
-          <div class="body">
-            {{ post.excerpt }}
-          </div>
+      <div class="posts" onclick="location.href='{{ post.url }}'" style="cursor: hand;">
+        <div class="header">
+          <span class="date">{{ post.date | date_to_string }}</span>
+          <h2>
+            {% if post.categories contains 'projects' %}
+              <span class="name">Project:
+            {% endif %}
+            {{ post.title }}
+            {% if post.categories contains 'projects' %}
+              </span>
+            {% endif %}
+          </h2>
+        </div>
+        <div class="body">
+          {{ post.excerpt }}
         </div>
       </div>
     {% endfor %}
