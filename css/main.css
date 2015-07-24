@@ -55,6 +55,7 @@ a:visited { color: #303030; }
 
 @media screen and (max-width: 990px) {
   .posts {
+    height: unset;
     max-width: 960px;
   }
 }
