@@ -22,6 +22,10 @@
    color: #126FB8;
  }
 
+ .githubmd a:hover {
+   color: #9CCFF7;
+ }
+
 .githubmd a.anchor {
   display: block;
   padding-left: 30px;
