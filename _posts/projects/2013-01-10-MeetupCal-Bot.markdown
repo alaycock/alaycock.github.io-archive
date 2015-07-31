@@ -16,27 +16,8 @@ An example of it can be seen on the [Calgary Social Club](http://www.reddit.com/
 ##Setup##
  1. Configure the two files serverInfo.conf and description.conf
  2. serverInfo.conf information should be copied from /r/subreddit/about/edit except for the username and password.
- 3. description.conf should include the text that preceeds and subseeds the calendar.
-
- 1. Configure the two files serverInfo.conf and description.conf
- 2. serverInfo.conf information should be copied from /r/subreddit/about/edit except for the username and password.
- 3. description.conf should include the text that preceeds and subseeds the calendar.
-
- 1. Configure the two files serverInfo.conf and description.conf
- 2. serverInfo.conf information should be copied from /r/subreddit/about/edit except for the username and password.
- 3. description.conf should include the text that preceeds and subseeds the calendar.
-
- 1. Configure the two files serverInfo.conf and description.conf
- 2. serverInfo.conf information should be copied from /r/subreddit/about/edit except for the username and password.
- 3. description.conf should include the text that preceeds and subseeds the calendar.
-
- 1. Configure the two files serverInfo.conf and description.conf
- 2. serverInfo.conf information should be copied from /r/subreddit/about/edit except for the username and password.
- 3. description.conf should include the text that preceeds and subseeds the calendar.
-
- 1. Configure the two files serverInfo.conf and description.conf
- 2. serverInfo.conf information should be copied from /r/subreddit/about/edit except for the username and password.
- 3. description.conf should include the text that preceeds and subseeds the calendar.
+ 3. description.conf should include the text for before and after the calendar 
+ 4. There's probably more steps in here, but the bot no longer runs, so this hasn't been updated in ages.
 
 ##Usage##
 
