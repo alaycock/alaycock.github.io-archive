@@ -9,7 +9,7 @@ This is the back-end for my smart mirror. It displays the current time, weather,
 and some news stories. It also has integration for gesture controls, so you can
 wave you hand near the mirror and have it do stuff.
 
-[You can read my blog posts about building the Smart Mirror here.](http://localhost:4000/blog/2015/07/01/Smart-Mirror-Intro.html)
+[You can read my blog posts about building the Smart Mirror here.](/blog/2015/07/01/Smart-Mirror-Intro.html)
 
 ##Web server##
 The web server runs on Node.js and uses some basic modules to serve static
