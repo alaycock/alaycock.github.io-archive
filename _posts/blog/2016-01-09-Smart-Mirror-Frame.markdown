@@ -19,7 +19,7 @@ In September I spent a day building the frame for the mirror. I'm no good at woo
 
 ![](/img/20150109/IMG_20150921_183245.jpg)
 
-I had the dimensions of the monitor, and then I got a mirror about 1/4" wider on each side, and then I build the frame to be 1/4" larger than the mirror, which ended up working out very well. I used a [corner clamp](http://www.homedepot.com/p/Pony-3-in-Corner-Clamp-9166-K/100180604) to make sure the corner lined up and didn't move while screwing them in. I also learned that it's important to pre-drill holes after breaking a couple screws and wasting some wood.
+I had the dimensions of the monitor, and then I got a mirror about 1/4" wider on each side, and then I build the frame to be 1/4" larger than the mirror, which ended up working out very well. I used the corner clamp to make sure the corners lined up and didn't move while screwing them in. I also learned that it's important to pre-drill holes after breaking a couple screws and wasting some wood.
 
 I glued and nailed down the bezel, to be sure it wouldn't fall apart, I also added a support across the top, visible in the above picture, to support the frame when mounted on the wall. I'm still unsure about how to mount this though, as it's really heavy and I've never mounted anything on a wall that's reasonably heavy.
 
@@ -36,3 +36,5 @@ After a quick test fit, it looks perfect
 ![](/img/20150109/IMG_20160102_142413.jpg)
 
 I cut a small slit for the hover to be mounted on the side of the frame. This will allow me to wave up and down next to the frame to change what is on the display. I originally wanted to have the hover sunken into the frame, but I didn't have the necessary skills or tools. I also wasn't sure if that would affect the strength of the frame which took a while to build, so I opted to velcro it to the side of the frame instead.
+
+At the same time, I've been doing a bit of coding to get the mirror together. Once I have that working, I'm going to permanently put it all together and see how it works.
