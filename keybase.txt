@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/adamlaycock
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://adamlaycock.ca
+  * I am adamlaycock (https://keybase.io/adamlaycock) on keybase.
+  * I have a public key with fingerprint F568 F91C E564 E5A4 3D7B  A727 6499 0425 A708 5981
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101fb020efb5302eef6bca3140096a68c66a5fc1b4517cc995381e88292fdf65c510a",
+            "fingerprint": "f568f91ce564e5a43d7ba72764990425a7085981",
+            "host": "keybase.io",
+            "key_id": "64990425a7085981",
+            "kid": "0101fb020efb5302eef6bca3140096a68c66a5fc1b4517cc995381e88292fdf65c510a",
+            "uid": "fb3a73adc057c140e31e080f562df719",
+            "username": "adamlaycock"
+        },
+        "service": {
+            "hostname": "adamlaycock.ca",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1462236156,
+    "expire_in": 157680000,
+    "prev": "6fcedb3c60a019c256a319354874184f15535ba0548395d1ba41bc7f4c027221",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMIkAnicrVJbSBVBGD5WlhplaRkkhS1BWAeZ2d2Z3T1ZUJASWVAE0c3T7OysZ72c
+PZ5djx1MuwlGdBMMKpGexIrKEhPt5oXCKKKEIB/qoQj0pSwjwkvZrNRTPTYvw/z/
+933/93/Mo3kzfSkJheszIsk5J0cTnvU2Vvh2rfo6WSXothEXAlVCCZu+WKnBHDdY
+YhlCQAAQQFMHImCmjiQgMmZinRIJygBomGCVYkyQSaEuI6hQqmlIUiFTVVETTcPE
+iCIIiOAXTCtcxKKRqBV2uayJsGpqkDKEZYaILBmKThRRwbKmAVlERAEq0lTIiSHb
+8RjcnE4clmPZvMYfwWl7/8D/Z98V03KmLhFFIgYFSKFcg0mQARXwNUTDVKDmAR0W
+DZMyxtHEIGWlJE5tWiJU+wXeiFmUedl6y/wNyqHepEjUdm1ql/JeyHUjAY/qxiMe
+tpLpwd8qQd0KGzxLToixqGPZYSEAOZK6licLZSyKEoYI+wV2MGJFWdDyEEjBKuDH
+G8NiXnImZYYuUQwIgBoVEebhaBKSVUWGqmxChCSkE8ALkoYMqBMZ6lQxZQpERRS9
+pB1WHraFAOI2SRGXdKyiMHErokyo7uvZN8uXkOKbnTjD+2O+lOQFf34e7JwzVXw+
+Y83yxn3bP7TuGNh8q3286fH7A6PvYs6MS9mDr+3E2i8jO4+t29M+0X9x8BrMHDqM
+a44Yk3c6+hJP3Usr+Py2MWlbQ+Glb3l+Zdw5faVKW3hh01Ff5XzaMHa+JjKxsqv7
+24vRzJ9l9ak4/nBsR/2cl50DdUn9N8r3tFxtTj33VOr5lNdhL9O7Y8mjvo25u/3X
+vnYJih1vuy6fdaZW7J/K2JKV0Nv4nRYESjr6Zoeety1KlEcWN189kbbwTcXYyta7
+Ty6WN51J33ClaVXz3rwlt28Vhg6R466cO7Q6enB46dabH4uH8wsG5071Z2WO5a+9
++yDVza6VXl2270/savmRXlf5C3VYQKg=
+=8PZ7
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/adamlaycock
+
+==================================================================
