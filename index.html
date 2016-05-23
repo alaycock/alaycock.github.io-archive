@@ -6,11 +6,10 @@ title: Adam Laycock
 <div id="home">
   <div id="miniabout">
     <p><big>{{site.name}}</big></p>
-    <p>I am a graduate from the computer science program at the University of Calgary. Currently a software and web developer.</p>
   </div>
   <div id="grid">
     {% for post in site.posts %}
-      <div class="posts" onclick="location.href='{{ post.url }}'" style="cursor: pointer;">
+      <a class="posts" href="{{ post.url }}">
         <div class="header">
           <span class="date">{{ post.date | date_to_string }}</span>
           <h2>
@@ -28,7 +27,7 @@ title: Adam Laycock
             {{ post.excerpt | strip_html }}
           </p>
         </div>
-      </div>
+      </a>
     {% endfor %}
   </div>
 </div>

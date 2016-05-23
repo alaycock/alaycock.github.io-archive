@@ -90,7 +90,7 @@
   font-size: 14px; }
 
 .githubmd p, .githubmd blockquote, .githubmd ul, .githubmd ol, .githubmd dl, .githubmd li, .githubmd table, .githubmd pre {
-  margin: 15px 0; }
+  margin: 10px 0; }
 
 .githubmd hr {
   background: transparent url("../../images/modules/pulls/dirty-shade.png") repeat-x 0 0;
