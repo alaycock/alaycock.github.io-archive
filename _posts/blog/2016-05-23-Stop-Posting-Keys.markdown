@@ -21,7 +21,7 @@ I found a number of exposed keys on Github the other day and reported them to St
 
 3. Go through the [file's history](https://github.com/stripe/monospace-rails/commits/8d8c9ff56755a51a8d58adc76f0c6e3bff828979/config/initializers/stripe.rb) and see check if there are keys in there. Don't forget to trace a little bit through `.env` and other config files.
 
-4. When you find a key, which you usually don't, fire off a [curl request to one of the API endpoints](https://stripe.com/docs/api#balance_history) to see if it's still active.
+4. When you find a key, fire off a [curl request to an API endpoint](https://stripe.com/docs/api#balance_history) to see if it's still active. No luck? Go through the history a bit more and see if there's anything else in there.
 
 5. Repeat until you find an active key, this can take a page or 20 of search results.
 
