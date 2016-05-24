@@ -75,9 +75,15 @@ a:hover   { color: #6CB8F3; }
 
 .date {
   color: #555;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 100%;
+  font-size: 70%;
   float: right;
+}
+
+.postDate {
+  color: #555;
+  font-size: 90%;
+  text-align: right;
+  padding: 0;
 }
 
 .posts .body {
@@ -271,7 +277,8 @@ a:hover   { color: #6CB8F3; }
 /*
 /*****************************************************************************/
 .post {
-  margin: 0em 1em 0em 1em;
+  width: 700px;
+  margin: 30px auto 10px;
 }
 
 /* standard */
