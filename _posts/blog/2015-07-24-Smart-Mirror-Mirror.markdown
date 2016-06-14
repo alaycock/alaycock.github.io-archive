@@ -26,3 +26,5 @@ around with the monitor settings, but aside from that it's looking good.
 
 From here I need to build the frame, finish implementing the interface,
 assemble it all, and then mount it on my wall.
+
+[You can read about building the frame on my next post.](/blog/2016/01/09/Smart-Mirror-Frame.html)
