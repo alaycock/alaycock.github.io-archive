@@ -1,0 +1,35 @@
+---
+layout: project
+title:  "SmartMirror"
+date:   2016-06-20 12:00:00
+categories: projects
+githuburl: https://github.com/teamtrumpet
+---
+
+[Trumpet](https://trumpet.ca)
+===
+I participated as a front end developer for the project of building Trumpet.ca,
+which is a new review platform which encourages breivity and honesty through transparency.
+
+Features
+===
+Reviews
+---
+Micro-reviews, capped at 320 characters (or a double-tweet), encourage users to tell
+us what they like and dislike about a business quickly. No stories or novels about their experience, just the
+essentials to get the information you need.
+
+Social
+---
+Users can follow each other to keep track of their friends, and the places they like. 
+We're a local business, and we know local businesses thrive on word-of-mouth, so we allow users
+to share reviews and businesses directly to Facebook and Twitter.
+
+To keep customers involved, we recently added events to the Trumpet platform, that way users can see
+what their favourite local businesses are up to.
+
+Features for Businesses
+---
+Business owners are important to us, and helping them stay in touch with the community is essential. 
+We let businesses know as soon as they get a review, and they can directly respond to their customers,
+to ensure any negative experience can be resolved.
