@@ -6,8 +6,8 @@ categories: projects
 githuburl: https://github.com/teamtrumpet
 ---
 
-[Trumpet](https://trumpet.ca)
-===
+[http://trumpet.ca](https://trumpet.ca)
+
 I participated as a front end developer for the project of building Trumpet.ca,
 which is a new review platform which encourages breivity and honesty through transparency.
 
