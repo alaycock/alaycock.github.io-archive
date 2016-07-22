@@ -6,7 +6,7 @@ categories: projects
 githuburl: https://github.com/teamtrumpet
 ---
 
-I participated as the mobile application developer for [Wutsgüd](https://itunes.apple.com/ca/app/wutsgud/id1123198884?ls=1&mt=8), a business rating app, for finding what you want quickly, without having to read a story. Wutsgüd is developed using [React Native](https://facebook.github.io/react-native/), meaning the core of the app is JavaScript, with native code added in where React Native falls short.
+I participated as the mobile application developer for [Wutsgüd](https://itunes.apple.com/ca/app/wutsgud/id1123198884?ls=1&mt=8), a business rating app, for finding what you want quickly, without having to read a novel. Wutsgüd is developed using [React Native](https://facebook.github.io/react-native/), meaning the core of the app is JavaScript, with native code added in where React Native falls short.
 
 Wutsgüd
 ===
