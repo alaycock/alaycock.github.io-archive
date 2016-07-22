@@ -1,0 +1,26 @@
+---
+layout: project
+title:  "Wutsgüd"
+date:   2016-06-20 12:00:00
+categories: projects
+githuburl: https://github.com/teamtrumpet
+---
+
+I participated as the mobile application developer for [Wutsgüd](https://itunes.apple.com/ca/app/wutsgud/id1123198884?ls=1&mt=8), a business rating app, for finding what you want quickly, without having to read a story. Wutsgüd is developed using [React Native](https://facebook.github.io/react-native/), meaning the core of the app is JavaScript, with native code added in where React Native falls short.
+
+Wutsgüd
+===
+Wutsgüd lets you rate anything about a business. Instead of writing a story about your experience, you can rate individual aspects of the business, such as the food, your service, or the lighting. Anything is fair game. Don't like the pizza? Let the world know! Think the patio is the best in the city? Give it a great rating!
+
+You can also search by anything as well, so if you're looking for the best wings in the city, just search for wings, and Wutsgüd will show you all the places nearby that people think are great for wings.
+
+Screenshots
+===
+![](/img/20160722/wutsgud_home.png)  
+The landing screen, see what's nearby, and then rate it.
+
+![](/img/20160722/wutsgud_biz.png)  
+When you pick a business, you can see what it's known for, what people like and dislike.
+
+![](/img/20160722/wutsgud_rate.png)  
+Leave ratings, let the world know what you think!

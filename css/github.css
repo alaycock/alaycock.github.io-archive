@@ -188,7 +188,9 @@
       margin-bottom: 0; }
 
 .githubmd img {
-  max-width: 100%; }
+  max-width: 100%;
+  box-shadow: 0px 5px 20px #888;
+}
 
 .githubmd span.frame {
   display: block;
