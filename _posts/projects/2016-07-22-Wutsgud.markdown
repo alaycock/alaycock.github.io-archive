@@ -8,7 +8,7 @@ githuburl: https://github.com/teamtrumpet
 
 I participated as the mobile application developer for [Wutsgüd](https://itunes.apple.com/ca/app/wutsgud/id1123198884?ls=1&mt=8), a business rating app, for finding what you want quickly, without having to read a novel. Wutsgüd is developed using [React Native](https://facebook.github.io/react-native/), meaning the core of the app is JavaScript, with native code added in where React Native falls short.
 
-Wutsgüd
+About
 ===
 Wutsgüd lets you rate anything about a business. Instead of writing a story about your experience, you can rate individual aspects of the business, such as the food, your service, or the lighting. Anything is fair game. Don't like the pizza? Let the world know! Think the patio is the best in the city? Give it a great rating!
 
