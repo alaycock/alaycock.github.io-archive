@@ -14,11 +14,7 @@ I used this [video](https://www.youtube.com/watch?v=O0R6XudHV7s) to guide me thr
 
 Once it's opened up and taken apart, you can see if the belt is broken. If the belt is broken, it's an easy fix, just order a new belt. I found the part number on the [Sears Parts Direct](http://www.searspartsdirect.com/) website, specifically on [this page](http://www.searspartsdirect.com/model-number/11060832990/0582/0151200.html) for my model dryer.
 
-I found the problem was my dryers belt was slipping off the idler pulley. I put it back on, but it continued to slip off. This is because my idler pulley needed to be replaced. Here's a video about what it looked like, after removing it.
-
-<video preload="auto" autoplay="autoplay" muted="muted" loop="loop" webkit-playsinline="" style="width: 50%">
-    <source src="//i.imgur.com/7LJ5Qyk.mp4" type="video/mp4">
-</video>
+I found the problem was my dryers belt was slipping off the idler pulley. I put it back on, but it continued to slip off. This is because my idler pulley needed to be replaced.
 
 The idler pulley was slipping too much, allowing the belt to fall into the gap. My belt was also pretty worn down, so I replaced that too. It was about $50 in parts, so totally worth while doing myself.
 
