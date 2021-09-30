@@ -26,14 +26,17 @@
         color: #383d43;
         background-color: #f8f5f2;
         font-family: "Inter", sans-serif;
+        margin: 8px;
       }
 
       #headerImage {
         max-width: 600px;
+        margin-left: 50%;
+        transform: translateX(-50%);
       }
 
       #card {
-        margin: 48px auto;
+        margin: 8px auto;
         max-width: 600px;
         background-color: #ffffff;
         border-radius: 8px;
@@ -42,7 +45,7 @@
 
       #content {
         margin: auto;
-        padding: 36px 52px;
+        padding: 32px 32px 16px;
       }
 
       h1 {
@@ -69,6 +72,17 @@
       my-mail::before {
         content: attr(data-prefix);
       }
+
+      @media (min-width: 640px) {
+        #card {
+          margin-top: 36px;
+        }
+
+        #content {
+          margin: auto;
+          padding: 36px 52px;
+        }
+      }
     </style>
   </head>
   <body>
@@ -84,15 +98,16 @@
         </p>
 
         <p>
-          I can be found
+          Whenever I have a chance, I'll typically be found
           <a
             href="https://bouncy-mushroom-c8e.notion.site/5df21513b833446f9b7de6bc370f247b?v=f40bdd4e39064cea8e3e39ada7c6f37b"
             target="_blank"
             rel="noopener noreferrer"
             >hiking</a
-          >, scrambling, or climbing in beautiful Canadian Rockies, typically in
-          the Canmore area. When I have the chance, I'll explore a bit further,
-          but always focusing on finding unique or otherwise jagged landscapes.
+          >, scrambling, or climbing in beautiful Canadian Rockies, often in the
+          Canmore area. If the opportunity presents itself I'll explore a bit
+          further, but always focusing on finding unique or otherwise jagged
+          landscapes.
         </p>
 
         <p>
