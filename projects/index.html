@@ -1,26 +1,198 @@
----
-layout: default
-title: Projects
----
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Projects</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 
-<div id="home">
+        <!-- Icons -->
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/github.css">
+        <link rel="stylesheet" href="/css/main.css">
+
+    </head>
+    <body>
+        <div class="site">
+          <nav id="navigation">
+  <ul class="links">
+    <li><a href="/">AL</a>
+    </li><li><a href="/projects/">Projects</a>
+    </li><li><a href="/blog/">Blog</a>
+  </ul>
+</nav>
+
+          <div class="content">
+            <div id="home">
   <div id="miniabout">
-    <p><big>{{page.title}}</big></p>
+    <p><big>Projects</big></p>
   </div>
 
-  {% for post in site.posts %}
-    {% if post.categories contains 'projects' %}
-      <div class="posts" onclick="location.href='{{ post.url }}'" style="cursor: pointer;">
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <div class="posts" onclick="location.href='/projects/2016/06/20/Wutsgud.html'" style="cursor: pointer;">
         <div class="header">
-          <span class="date">{{ post.date | date_to_string }}</span>
-          <h2>{{ post.title }}</h2>
+          <span class="date">20 Jun 2016</span>
+          <h2>Wutsgüd</h2>
         </div>
         <div class="body">
           <p>
-            {{ post.excerpt | strip_html }}
+            I participated as the mobile application developer for Wutsgüd, a business rating app, for finding what you want quickly, without having to read a novel. Wutsgüd is developed using React Native, meaning the core of the app is JavaScript, with native code added in where React Native falls short.
+
           </p>
         </div>
       </div>
-    {% endif %}
-  {% endfor %}
+    
+  
+    
+      <div class="posts" onclick="location.href='/projects/2016/06/20/Trumpet.html'" style="cursor: pointer;">
+        <div class="header">
+          <span class="date">20 Jun 2016</span>
+          <h2>Trumpet</h2>
+        </div>
+        <div class="body">
+          <p>
+            I participated as a front end developer for the project of building Trumpet.ca, which is a new review platform which encourages breivity and honesty through transparency.
+
+          </p>
+        </div>
+      </div>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <div class="posts" onclick="location.href='/projects/2015/05/11/SmartMirror.html'" style="cursor: pointer;">
+        <div class="header">
+          <span class="date">11 May 2015</span>
+          <h2>SmartMirror</h2>
+        </div>
+        <div class="body">
+          <p>
+            This is the back-end for my smart mirror. It displays the current time, weather,
+and some news stories. It also has integration for gesture controls, so you can
+wave you hand near the mirror and have it do stuff.
+
+          </p>
+        </div>
+      </div>
+    
+  
+    
+      <div class="posts" onclick="location.href='/projects/2014/06/02/Sirius-Playlists.html'" style="cursor: pointer;">
+        <div class="header">
+          <span class="date">02 Jun 2014</span>
+          <h2>Sirius Playlists</h2>
+        </div>
+        <div class="body">
+          <p>
+            A web service that scrapes the Sirius XM ‘now playing’ data, finds it on youtube, and plays as it is scraped. It’s a makeshift free internet satellite radio service, with just the music.
+
+          </p>
+        </div>
+      </div>
+    
+  
+    
+      <div class="posts" onclick="location.href='/projects/2014/03/09/TableFinder.html'" style="cursor: pointer;">
+        <div class="header">
+          <span class="date">09 Mar 2014</span>
+          <h2>TableFinder</h2>
+        </div>
+        <div class="body">
+          <p>
+            A simple table selector for the website tablefinder.info. The goal was to allow a small group of users select seats at a table for an event.
+
+          </p>
+        </div>
+      </div>
+    
+  
+    
+      <div class="posts" onclick="location.href='/projects/2013/01/10/MeetupCal-Bot.html'" style="cursor: pointer;">
+        <div class="header">
+          <span class="date">10 Jan 2013</span>
+          <h2>MeetupCal-Bot</h2>
+        </div>
+        <div class="body">
+          <p>
+            This bot is for retrieving posts from Reddit, parsing them, and then generating a calendar that automatically gets uploaded to the subreddit.
+
+          </p>
+        </div>
+      </div>
+    
+  
 </div>
+
+          </div>
+          <section id="footer">
+  <canvas id="footerCanvas"></canvas>
+  <script src="/js/lightning.js"></script>
+  <div class='footerContent'>
+    <div class='centerer'>
+      <h3 class='padLeft'>Adam Laycock</h3>
+      <p class='padLeft'>I am Calgary based full-stack application developer.</p>
+      <ul class='social padLeft'>
+        <li>
+          <a href='https://github.com/alaycock'>
+            <i class="fa fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href='https://stackoverflow.com/users/1769777/adam'>
+            <i class="fa fa-stack-overflow"></i>
+          </a>
+        </li>
+        <li>
+          <a href='https://ca.linkedin.com/in/adam-laycock-059b4b56'>
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href='mailto:adam.laycock@gmail.com'>
+            <i class="fa fa-envelope"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+        </div>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-65899720-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+    </body>
+</html>

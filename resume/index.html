@@ -1,16 +1,164 @@
----
-layout: default
-title: Resume
----
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Resume</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 
-<div id="home">
+        <!-- Icons -->
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/github.css">
+        <link rel="stylesheet" href="/css/main.css">
+
+    </head>
+    <body>
+        <div class="site">
+          <nav id="navigation">
+  <ul class="links">
+    <li><a href="/">AL</a>
+    </li><li><a href="/projects/">Projects</a>
+    </li><li><a href="/blog/">Blog</a>
+  </ul>
+</nav>
+
+          <div class="content">
+            <div id="home">
   <div id="miniabout">
-    <p><big>{{page.title}}</big></p>
+    <p><big>Resume</big></p>
   </div>
 
   <div class="post githubmd">
-    {% capture resumeInclude %}{% include resume.md %}{% endcapture %}
-    {{ resumeInclude | markdownify }}
+    
+    <h2 id="education">Education</h2>
+
+<p><strong>University of Calgary</strong><br />
+<em>2013</em> - Bachelor of Science in Computer Science with a concentration in Software Engineering</p>
+
+<h2 id="summary-of-skills">Summary of Skills</h2>
+
+<ul>
+  <li>A full stack web developer, from back-ends in C#, Ruby on Rails, and Node.js, to front-ends using HTML5, CSS3, JavaScript, and a variety of other necessary technologies.</li>
+  <li>Deployed, and maintained web applications on cloud platforms including AWS, Azure, and Heroku.</li>
+  <li>Practical knowledge of a variety of databases such as PostgreSQL, MongoDB, and MySQL.</li>
+  <li>Ability and interest to learn new tools, languages, and libraries quickly and thoroughly.</li>
+  <li>Background with a variety of development methods and processes ranging from Waterfall to Agile.</li>
+  <li>Years of experience using Git and various other systems for version control and source code management.</li>
+  <li>Proficiency using Windows, Linux, and OS X development environments, as well as Windows and Linux server administration.</li>
+  <li>Strong technical communication skills while interacting with customers and team members.</li>
+  <li>An effective problem solver and will dig and debug until a solution is found.</li>
+</ul>
+
+<h2 id="work-experience">Work Experience</h2>
+
+<p>Aug 2015 - Present<br />
+<strong>Trumpet Interactive</strong>, Calgary, Alberta<br />
+<em>Lead Front End Web and Mobile Application Developer</em></p>
+
+<ul>
+  <li>Leads the front end development team at this startup to create innovative web and mobile applications.</li>
+  <li>Utilizes Ruby on Rails, React, jQuery, Node.js, and REST APIs.</li>
+  <li>Developing a mobile application for iOS and Android using React Native.</li>
+  <li>Implemented a strict deployment process to ensure high availability and production functionality.</li>
+  <li>Plays a pivotal role in deciding the business direction and feature priority.</li>
+  <li>Reviewed business and sales data to verify development decisions based on user feedback.</li>
+  <li>Uses Scrum methodologies to ensure quick turnaround and efficient workflow within the development team.</li>
+</ul>
+
+<p>Jan 2015 - Jul 2015<br />
+<strong>Ripple Group Inc</strong>, Calgary, Alberta<br />
+<em>Computer Software Programmer and Web Developer</em></p>
+
+<ul>
+  <li>Developed applications and websites using C#, .NET, JavaScript, and other web languages.</li>
+  <li>Utilized tools including Git, Visual Studio and ReSharper on a daily basis.</li>
+  <li>Worked with a variety of frameworks and libraries such as AngualarJS, jQuery, Bootstrap and Entity Framework.</li>
+  <li>Deployed to staging and production environments on both Amazon Web Services and Microsoft Azure through Git.</li>
+  <li>Focused on high quality, efficient code while working in a detail oriented, fast-paced environment with multiple deadlines and evolving requirements.</li>
+</ul>
+
+<p>Feb 2014 - Jan 2015<br />
+<strong>Hitachi ID Systems</strong>, Calgary, Alberta<br />
+<em>Solutions Architect</em></p>
+
+<ul>
+  <li>Provided security solutions to customers over the course of long-term projects with a web-based identity, password, and access management suite.</li>
+  <li>Performed large scale software deployments to enterprise production environments on globally distributed networks.</li>
+  <li>Solutions ranged from simple installation and configuration, to intricate solutions using custom Python scripts to match the appropriate business logic required by the customer.</li>
+  <li>Setup and managed Windows and Linux servers, and made use of administrative and development tools including IIS, Microsoft SQL Server, Mercurial and PyCharm.</li>
+  <li>Worked individually, as well as with teams, to turn concepts into completed projects.</li>
+  <li>Wrote extensive technical documentation for projects, including estimates, solution designs and exit documentation.</li>
+  <li>Travelled internationally to work with customers on-site in Europe.</li>
+</ul>
+
+<p>Jul 2013 - Feb 2014, May 2012 - Aug 2012<br />
+<strong>Hitachi ID Systems</strong>, Calgary, Alberta<br />
+<em>Technical Support Analyst</em></p>
+
+<ul>
+  <li>Worked one-on-one with system administrators to solve complex configuration and programming problems.</li>
+  <li>Debugged and troubleshot code, working continuously with the customer until a complete solution was found.</li>
+  <li>Effectively communicated technical information verbally as well on paper, in emails, bug reports, and knowledge base articles.</li>
+  <li>Required the ability to research and problem solve quickly while providing the customer with a friendly and professional interaction.</li>
+  <li>Necessitated knowledge of information security, intrusion prevention, and server hardening due to the sensitive nature of the industry.</li>
+  <li>Developed an internal website for managing potential employee applications using PHP and JavaScript.</li>
+  <li>Implemented functionality for the open source project TooFast.</li>
+</ul>
+
 
   </div>
 </div>
+
+          </div>
+          <section id="footer">
+  <canvas id="footerCanvas"></canvas>
+  <script src="/js/lightning.js"></script>
+  <div class='footerContent'>
+    <div class='centerer'>
+      <h3 class='padLeft'>Adam Laycock</h3>
+      <p class='padLeft'>I am Calgary based full-stack application developer.</p>
+      <ul class='social padLeft'>
+        <li>
+          <a href='https://github.com/alaycock'>
+            <i class="fa fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href='https://stackoverflow.com/users/1769777/adam'>
+            <i class="fa fa-stack-overflow"></i>
+          </a>
+        </li>
+        <li>
+          <a href='https://ca.linkedin.com/in/adam-laycock-059b4b56'>
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href='mailto:adam.laycock@gmail.com'>
+            <i class="fa fa-envelope"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+        </div>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-65899720-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+    </body>
+</html>
